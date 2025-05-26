@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Changa+One:ital@0;1&display=swap');
+
+*{
+   margin: 0%; padding: 0%; text-transform: uppercase; font-family: "Changa One", sans-serif;
+}
+/** header**/
+.navbar-expand-lg {
+   background-color: rgb(255, 255, 255);
+}
+
+.container-fluid #navbarNav{
+   justify-content: end;
+   font-size: 20px;
+}
+
+.container-fluid .navbar-brand {
+   font-size: 50px;
+}
+
+/** mine **/
+.grid-galeria {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+}
+
+.grid-galeria div img {
+   width: 100%;
+   height: 90%;
+   object-fit: cover;
+}
+
+.f1 {
+   position: relative;
+}
+
+.f1 h3 {
+   position: absolute;
+   font-size: 40px;
+   width: 100%;
+   background-color: rgba(153, 91, 16, 0.425);
+   text-align: center;
+   color: rgb(56, 39, 15);
+}
+
+.destacados h2 {
+   font-size: 40px;
+   display: flex;
+   justify-content: center; 
+   margin-bottom: 30px;
+}
+.destacados {
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   margin-bottom: 30px;
+}
+
+.fixed img{
+   width: 80px;
+   height: 80px;
+   position: fixed;
+   bottom: 50px;    
+   right: 20px;
+}
+
+.destacados img {
+width: 300px;
+height: 300px;
+border: 2px solid rgb(0, 0, 0);
+}
+
+/*MINE PRODUCTOS*/
+.ropa h2 {
+   font-size: 50px;
+   color: grey;
+   margin: 20px 20px;
+}
+
+.ropa h3 {
+   font-size: 30px;
+}
+
+.ropa a {
+   text-decoration: none;
+   color: green;
+   font-size: 20px;
+   border: 2px solid green;
+   padding: 5px;
+   margin: 10px;
+}
+
+.ropa img {
+width: 300px;
+height: 300px;
+border: 2px solid rgb(0, 0, 0);
+}
+
+.ropa {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px;
+}
+
+/*MINE COMPRAR*/
+.pagos h2 {
+font-size: 50px;
+color: skyblue;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+.pagos div {
+   display: flex;
+   justify-content: center;
+   margin: 40px;
+}
+
+.pagos div img {
+   width: 717px;
+   height: 240px;
+}
+
+/*MINE ENVIOS*/
+.envio h2 {
+   font-size: 40px;
+   text-align: center;
+   margin: 20px 0 50px 0;
+   color: rgb(50, 123, 218);
+}
+
+.envio {
+ display: flex;
+ flex-direction: column; 
+ text-align: center;
+}
+
+.botonn {
+   display: flex;
+   justify-content: center;
+}
+
+.boton:hover{
+   background-color: rgb(21, 255, 0);
+   color: rgb(0, 0, 0);
+   justify-content: center;
+}
+
+/*MINE CONTACTO*/
+.redes h1 {
+   font-size: 50px;
+   text-align: center;
+   margin-bottom: 40px;
+   color: grey; 
+}
+
+.redes div {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+
+.redess {
+   font-size: 30px;
+}
+
+.redess {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+/** Footer **/
+.pie{
+   color: white;
+   display: flex;
+   justify-content: center;
+   font-size: 40px;
+   background-color: black;
+   padding: 40px;
+}
+
+/* MEDIA QUERY PAGINA PRINCIPAL */
+@media screen and (max-width:557px) {
+   .navbar ul {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+@media screen and (max-width:840px) {
+   .f1 h3 {
+      font-size: 20px;
+   }
+}
+
+@media screen and (max-width:939px) {
+   .destacados div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+   }
+}
+
+@media screen and (max-width:3150px) {
+   .pie{
+      margin-bottom: 0px;
+   }
+}
+
+/* MEDIA QUERY COMPRAR */
+@media screen  and (max-width:672px) {
+   .pagos div img {
+      width: 550px;
+      height: 160px;
+   }
+}
+
+@media screen  and (max-width:450px) {
+   .pagos div img {
+      width: 450px;
+      height: 120px;
+   }
+}
+
+@media screen  and (max-width:388px) {
+   .pagos h2 {
+      font-size: 30px;
+      }
+}
