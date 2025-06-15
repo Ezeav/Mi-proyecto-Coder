@@ -1,0 +1,51 @@
+// Ordenar las media queries de menor a mayor tamaño para facilitar la lectura
+
+/* Pantallas pequeñas */
+@media screen and (max-width: 388px) {
+    .pagos h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .pagos div img {
+        width: 450px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .pagos div img {
+        width: 550px;
+        height: 160px;
+    }
+}
+
+/* Pantallas medianas */
+@media screen and (max-width: 840px) {
+    .f1 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .destacados div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+/* Pantallas grandes */
+@media screen and (max-width: 3150px) {
+    .pie {
+        margin-bottom: 0px;
+    }
+}

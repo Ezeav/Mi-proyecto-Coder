@@ -1,0 +1,24 @@
+//VARIABLES//
+$color-primario: whitesmoke;
+$color-secundario: black;
+$color-random: rgb(56, 39, 15);
+
+//LISTAS//
+$font-size:
+15px,
+20px,
+40px,
+60px,
+80px;
+
+//EXTENDS//
+%centro {
+    display: flex;
+    justify-content: center;
+}
+
+//MIXIN//
+@mixin letra ($color, $size) {
+    color: $color;
+    font-size: $size;
+}
